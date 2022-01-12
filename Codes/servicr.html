@@ -4,10 +4,313 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7608100919.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>Our service</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, reiciendis!</p>
+    <header>
+        <nav class="navigation-bar">
+            <span>
+                <a href="">Home</a>
+                <a href="">products</a>
+                <a href="">Service</a>
+                <a href="">About Us</a>
+                <a href="">Contact</a>
+            </span>
+            <span>
+                <a href=""><i class="fas fa-user-tie"></i></a>
+                <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+    </header>
+    <h1>Media</h1>
+    <section class="media">
+        <div class="media">
+            <div class="audio">
+                <audio src="/audio/a.mp3" controls ></audio>
+            </div>
+            <div class="video">
+                <video src="/videos/practice.mp4" poster="/images/reza.JPG" controls></video>
+            </div>
+        </div>
+    </section>
+    
+    <h1>Table</h1>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Station</th>
+                    <th colspan="2">Temperature</th>
+                    <th rowspan="2">Humidity</th>
+                    <th rowspan="2">Weather</th>
+                </tr>
+                <tr>
+                    <th>Max</th>
+                    <th>Min</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>USA</td>
+                    <td>24</td>
+                    <td>19</td>
+                    <td>60%</td>
+                    <td>cloudy</td>
+                </tr>
+                <tr>
+                    <td>Germany</td>
+                    <td>5</td>
+                    <td>-1</td>
+                    <td>70%</td>
+                    <td>Rainy</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h1>Form</h1>
+    <section class="form-container">
+        <div >
+            <form action="#" class="form">
+                <input type="text" placeholder="Enter your full name" >
+                <input type="text"placeholder="Enter your Email">
+                <input type="password" placeholder="Enter your password">
+                <fieldset>
+                    <legend>
+                        Select your choice : (choose one)
+                    </legend>
+                    <label for="c++">
+                        <input type="radio" id="c++" name="radio"> C++
+                    </label>
+                    <label for="java">
+                        <input type="radio" id="java" name="radio"> java
+                    </label>
+                    <label for="react">
+                        <input type="radio" id="react" name="radio"> react
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="html">
+                        <input type="checkbox" id="html">html
+                    </label>
+                    <label for="css">
+                        <input type="checkbox" id="css">css
+                    </label>
+                    <label for="javascript">
+                        <input type="checkbox" id="javascript">javascript
+                    </label>
+                </fieldset>
+                <div class="submit">
+                    <input type="submit">
+                    <input type="reset" value="Eras Data">
+                </div>
+            </form>
+        </div>    
+    </section>
+
+    <h1>Calender</h1>
+    <section class="calender-sec">
+        <div class="calender-container">
+            <div class="day">SUN</div>
+            <div class="day">MON</div>
+            <div class="day">TUE</div>
+            <div class="day">WED</div>
+            <div class="day">THU</div>
+            <div class="day">FRI</div>
+            <div class="day">SAT</div>
+            <div class="date other-month">30</div>
+            <div class="date other-month">30</div>
+            <div class="date">30</div>
+            <div class="date">30</div>
+            <div class="date">30</div>
+            <div class="date">31</div>
+            <div class="date">1</div>
+            <div class="date">2</div>
+            <div class="date">3</div>
+            <div class="date">4</div>
+            <div class="date">5</div>
+            <div class="date">6</div>
+            <div class="date">7</div>
+            <div class="date">8</div>
+            <div class="date">9</div>
+            <div class="date">10</div>
+            <div class="date">11</div>
+            <div class="date">12</div>
+            <div class="date">13</div>
+            <div class="date">14</div>
+            <div class="date">15</div>
+            <div class="date">16</div>
+            <div class="date">17</div>
+            <div class="date">18</div>
+            <div class="date">19</div>
+            <div class="date">20</div>
+            <div class="date">21</div>
+            <div class="date">22</div>
+            <div class="date">23</div>
+            <div class="date">24</div>
+            <div class="date">25</div>
+            <div class="date">26</div>
+            <div class="date">27</div>
+            <div class="date">28</div>
+            <div class="date">29</div>
+            <div class="date">30</div>
+            <div class="date other-month">1</div>
+            <div class="date other-month">2</div>
+            <div class="date other-month">3</div>
+        </div>
+    </section>
+
+    <h1>photo album</h1>
+    <section>
+        <div class="album-container">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/images/reza.JPG" alt="my-photo">
+                </div>
+                <div class="photo-details">
+                    <h2>about Rezaul</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eligendi!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
